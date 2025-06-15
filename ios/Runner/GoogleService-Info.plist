@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+        <!-- TODO: replace with your Firebase project configuration -->
 	<key>CLIENT_ID</key>
 	<string>1034466329721-hdmtu9c20p8d4etc16ah9mbe0dhg32g2.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
