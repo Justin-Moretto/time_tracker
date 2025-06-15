@@ -46,7 +46,8 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.1034466329721-hdmtu9c20p8d4etc16ah9mbe0dhg32g2</string>
+                                <!-- TODO: replace with your Google and Facebook app identifiers -->
+                                <string>com.googleusercontent.apps.1034466329721-hdmtu9c20p8d4etc16ah9mbe0dhg32g2</string>
                 <string>fb488217919152908</string>
 
 			</array>

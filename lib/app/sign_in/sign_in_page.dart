@@ -9,7 +9,7 @@ import 'package:time_tracker_flutter_course/common_widgets/show_exception_alert_
 import 'package:time_tracker_flutter_course/services/auth.dart';
 
 class SignInPage extends StatelessWidget {
-  const SignInPage({Key key, @required this.bloc}) : super(key: key);
+  const SignInPage({Key? key, required this.bloc}) : super(key: key);
   final SignInBloc bloc;
 
   static Widget create(BuildContext context) {
@@ -80,7 +80,7 @@ class SignInPage extends StatelessWidget {
           stream: bloc.isLoadingStream,
           initialData: false,
           builder: (context, snapshot) {
-            return _buildContent(context, snapshot.data);
+            return _buildContent(context, snapshot.data ?? false);
           }),
       backgroundColor: Colors.grey[200],
     );

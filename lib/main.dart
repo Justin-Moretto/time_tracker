@@ -6,6 +6,7 @@ import 'package:time_tracker_flutter_course/services/auth.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // TODO: configure Firebase options and environment variables
   await Firebase.initializeApp();
   runApp(MyApp());
 }
